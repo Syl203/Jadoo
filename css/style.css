@@ -1,0 +1,430 @@
+body{
+    /* */
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    position : fixed;
+    z-index: 1000;
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+.logo img{
+    margin-left: 10px;
+}
+.img-logo:hover{
+    animation: logo-animation 0.5s ease-in;
+}
+@keyframes logo-animation {
+    20% {
+        transform: rotate(180deg);
+    }
+
+    40% {
+        transform: rotate(-20deg);
+    }
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    margin-right : 50px;
+}
+
+ul{
+    font-family: poppins-regular;
+    display: flex;
+}
+
+
+ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color : #000;
+}
+
+#section1{
+    margin-top : 0;
+    padding-top : 0;
+    background-image: url(../img/illustration_principale.jpg);
+    background-size : cover;
+}
+
+h1{
+    font-family: volkhov-bold;
+    font-size: 80px;
+    color: #FFFFFF;
+    margin-bottom:0;
+}
+#h3-first{
+    font-family: poppins-bold;
+    color: salmon;
+    margin:0; padding-top:100px;
+}
+h5{
+    font-family: poppins-regular;
+    font-size:16px;
+    color: #BFC0CD;
+    font-weight: 400;
+}
+
+#h4-first, #h4-tr{
+    font-family: poppins-regular;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+#h4-sec{
+    font-family: poppins-regular;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#h2-first, #h2-tr{
+    font-family: volkhov-bold;
+    font-size : 50px;
+    text-align: center;
+}
+#h2-sec{
+    font-family: volkhov-bold;
+    font-size : 50px;
+}
+#h2-sec span{
+    color : #DF6951;
+}
+
+button{
+    background-color: #F1A501;
+    border-color : #FFFFFF;
+    color: #FFFFFF;
+    width: 220px;
+    height: 60px;
+    border-radius : 13px;
+    font-family: poppins-regular;
+    font-size : 16px;
+    cursor: pointer;
+}
+
+.plats{
+    display : flex;
+    justify-content: space-between;
+    margin : 0 140px 0 140px;
+    flex-wrap : wrap;
+
+}
+
+.plat{
+    width: 320px;
+    height : 440px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+.plat:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transition : 0.4s;
+}
+
+.plat figure{
+    margin: 0;
+    padding:0;
+}
+
+.plat img{
+    border-radius: 24px 24px 0 0;
+}
+
+.plat p{
+    font-family: poppins-regular;
+    font-size : 18px;
+    text-align: center;
+}
+
+.makis{
+    display: flex;
+    justify-content: space-between;
+    margin : 100px 140px 80px 140px;
+
+}
+
+.maki{
+    width : 227px;
+    height : 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    text-align: center;
+}
+
+.maki p {
+    font-family: poppins-regular;
+    font-size : 18px;
+    text-align: center;
+}
+
+.bouton{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.btn{
+    background-color: #000000;
+    color: white;
+    width: 134px;
+    height: 36px;
+    font-size : 14px;
+}
+
+#section3{
+    background-image: url(../img/illustration_chef.jpg);
+    background-size: cover;
+}
+
+#section3 article{
+    margin-left: 140px;
+}
+
+#section3 article div{
+    position:relative;
+}
+#section3 article div .player{
+    position: absolute;
+    top:180px; left :185px;
+    border-radius: 50%;
+    border: 10px solid #DDD;
+    background-color: #DDD;
+}
+
+#section3 article #wrapper{
+    padding-top : 100px;
+    width: 450px;
+    opacity: 0.8;
+    transition: opacity(0.8) 1s ease-in;
+}
+
+#section3 article #wrapper div img{
+    margin-top:5px;
+}
+
+#section3 article #wrapper:hover{
+    cursor:pointer;
+    opacity:1;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
+#section3 article #wrapper:hover .player{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    transition-duration: 0.5s;
+    transition : all 1s ease;
+    transform : scale(1.1);
+    border: 10px solid white;
+}
+
+#section3 article div #lecteur{
+    border-radius : 24px;
+    width: 450px;
+}
+
+#section4{
+    background-image: url(../img/illustration_commander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section4 article{
+    margin-left:140px;
+    padding-top: 400px;
+}
+
+#commandez{
+    width: 480px;
+    margin-bottom: 50px;
+}
+
+#commandez img{
+    margin-right: 40px;
+    height: 70px;
+    width: 70px;
+}
+
+.uber, .jadoo, .livraison{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-family: poppins-regular;
+    font-size: 18px;
+}
+
+/*********************FORMULAIRE ***************************/
+
+#formulaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    border-radius : 24px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    width: 997px;
+}
+
+#formulaire .form{
+    margin-left:50px;
+}
+
+#formulaire img{
+    width: 494px;
+    border-top-right-radius:24px;
+    border-bottom-right-radius: 24px;
+}
+#formulaire .form-sous-titre{
+    font-family: poppins-regular;
+    font-size : 14px;
+    color: #8d8d8d;
+    max-width: 257px;
+}
+
+#nom p, #prenom p, #email p, .message{
+    margin-bottom: 5px;
+}
+
+#formulaire #nom-prenom{
+    display: flex;
+    margin-bottom: 30px;
+}
+#formulaire .email, #formulaire #message{
+    margin-bottom: 30px;
+}
+/*
+#formulaire #nom{
+    float:left; margin-right:35px; margin-bottom: 25px;
+}
+#formulaire #prenom{
+    float:left;
+}
+#formulaire #email{
+
+    text-align :left;
+}*/
+#formulaire input, textarea{
+    border:none;
+    border-bottom : 1px dotted #A9A9A9;
+    height: 10px;
+    width:100%;
+}
+#prenom{
+    margin-left : 20px;
+}
+#formulaire button{
+    background-color: #007AFF;
+    color :rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 140px;
+    height: 45px;
+}
+#formulaire button::before{
+    content : url(../img/bouton_formulaire_coche.svg);
+    margin-right:10px;
+}
+
+.photos-hors-champ{
+    position:absolute;
+    top : 250px;
+}
+.photos-hors-champ img{
+    width:380px;
+}
+
+/**********************FOOTER***************************/
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+    background-color: #f0ebeb;
+}
+
+.footer{
+    display:flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.ul-footer{
+    display: block;
+    margin-left : 0;
+    padding-left: 0;
+}
+.ul-footer li{
+    margin-left : 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration:none;
+    color : #000000;
+    font-family: poppins-regular;
+    font-size: 18px;
+}
+
+footer p{
+    color:#A9A9A9;
+    font-family: poppins-regular;
+    font-size: 18px;
+}
+
+footer strong{
+    color : #000;
+}
+.boutons{
+    display: flex;
+}
+footer .btn{
+    font-size:12px;
+    display: flex;
+    align-items :center;
+    text-align: center;
+    border-radius: 50px;
+}
+footer .google::before{
+    content: url(../img/logo_google_play.svg);
+    margin-left: 7px;
+    margin-right : 7px;
+}
+footer .apple::before{
+    content: url(../img/logo_apple.svg);
+    margin-left: 7px;
+    margin-right : 7px;
+}
+.copy{
+    text-align: center;
+    font-size:  12px;
+    color :#000;
+}
