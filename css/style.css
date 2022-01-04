@@ -138,8 +138,8 @@ button{
 
 .plats{
     display : flex;
-    justify-content: space-between;
-    margin : 0 140px 0 140px;
+    justify-content: center;
+    margin : 0 auto;
     flex-wrap : wrap;
 
 }
@@ -149,6 +149,7 @@ button{
     height : 440px;
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
+    margin: 0 20px;
     flex-wrap: wrap;
 }
 .plat:hover{
@@ -173,8 +174,8 @@ button{
 
 .makis{
     display: flex;
-    justify-content: space-between;
-    margin : 100px 140px 80px 140px;
+    justify-content: center;
+    margin : 100px auto;
     flex-wrap: wrap;
 
 }

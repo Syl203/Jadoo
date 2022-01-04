@@ -9,9 +9,15 @@
 @media screen and (max-width: 768px){
     body{background-color: green;}
     #section1{text-align: center;}
-    h1{font-size: 30px;}
+    h1{font-size: 30px; padding-left: 0;}
     #formulaire img{ display:none;}
     #formulaire{width: 100%;}
+    .plat{margin-top : 20px;}
+    .maki{
+        margin-top : 20px;
+        display: flex;
+        width : 100%;
+    }
 
 }
 
