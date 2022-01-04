@@ -1,0 +1,7 @@
+@media screen and (max-width: 980px){
+    body{background-color: red;}
+    nav ul li{
+        display:none;
+    }
+    ul #burger{ display: block; }
+}
