@@ -78,6 +78,7 @@ ul li a{
     background-repeat: no-repeat;
     background-size : cover;
     background-position: center center;
+    width: 100%;
 }
 
 h1{
@@ -174,6 +175,7 @@ button{
     display: flex;
     justify-content: space-between;
     margin : 100px 140px 80px 140px;
+    flex-wrap: wrap;
 
 }
 
@@ -181,9 +183,13 @@ button{
     width : 227px;
     height : 350px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
     text-align: center;
+}
+
+.maki:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transition : 0.4s;
 }
 
 .maki p {
@@ -208,6 +214,8 @@ button{
 #section3{
     background-image: url(../img/illustration_chef.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #section3 article{
@@ -260,6 +268,7 @@ button{
     background-image: url(../img/illustration_commander.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 #section4 article{
     margin-left:140px;
@@ -293,10 +302,12 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 140px;
+    margin:0 auto;
     border-radius : 24px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-    width: 997px;
+    width: 100%;
+    max-width: 1020px;
+    flex-wrap: wrap;
 }
 
 #formulaire .form{
@@ -380,6 +391,7 @@ footer{
     display:flex;
     align-items: stretch;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .ul-footer{

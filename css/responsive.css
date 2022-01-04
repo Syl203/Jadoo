@@ -8,10 +8,14 @@
 
 @media screen and (max-width: 768px){
     body{background-color: green;}
+    #section1{text-align: center;}
+    h1{font-size: 30px;}
+    #formulaire img{ display:none;}
+    #formulaire{width: 100%;}
+
 }
 
 @media screen and (max-width: 576px){
-
 }
 
 @media screen and (max-width: 320px){
