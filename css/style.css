@@ -75,7 +75,9 @@ ul li a{
     margin-top : 0;
     padding-top : 0;
     background-image: url(../img/illustration_principale.jpg);
+    background-repeat: no-repeat;
     background-size : cover;
+    background-position: center center;
 }
 
 h1{
