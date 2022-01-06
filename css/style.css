@@ -177,7 +177,6 @@ button{
     justify-content: center;
     margin : 100px auto;
     flex-wrap: wrap;
-
 }
 
 .maki{
@@ -220,7 +219,8 @@ button{
 }
 
 #section3 article{
-    margin-left: 140px;
+    /*margin-left: 140px;*/
+    margin : 0;
 }
 
 #section3 article div{

@@ -18,6 +18,12 @@
         display: flex;
         width : 100%;
     }
+    #section3 article{
+        margin : 0;
+    }
+    .photos-hors-champ img {
+        width: 100%;
+    }
 
 }
 
